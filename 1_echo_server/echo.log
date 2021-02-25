@@ -1,0 +1,15 @@
+INFO:root:Server is started
+INFO:root:Server is started
+INFO:root:Listening port 55555
+INFO:root:Client connected
+INFO:root:Receive message from the client: wfdgfbfsdfe
+INFO:root:Send message to the client: wfdgfbfsdfe
+INFO:root:Receive message from the client: asfdgbsf
+INFO:root:Send message to the client: asfdgbsf
+INFO:root:Receive message from the client: end
+INFO:root:Disconnect the client
+INFO:root:Listening port 55555
+INFO:root:Server is started
+INFO:root:Server is started
+ERROR:root:Port in used
+INFO:root:Listening port 55555
