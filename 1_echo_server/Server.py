@@ -3,6 +3,15 @@ import logging
 
 logging.basicConfig(filename="echo.log", level=logging.INFO)
 
+
+def check_name():
+    pass
+
+
+def write_name():
+    pass
+
+
 sock = socket.socket()
 logging.info("Server is started")
 
@@ -25,6 +34,8 @@ while True:
     sock.listen(1)
     logging.info("Listening port " + str(port))
     conn, addr = sock.accept()
+    print(conn)
+    print(addr)
     logging.info("Client connected")
     while True:
         data = conn.recv(1024).decode('utf-8')

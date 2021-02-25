@@ -22,7 +22,7 @@ while True:
     print("Send message to the server: " + mes)
     data = sock.recv(1024).decode('utf-8')
     print("Receive message from the server: " + data)
-    if data == "end":
+    if data == "end" or not data:
         break
 
 sock.close()

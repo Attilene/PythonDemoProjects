@@ -13,3 +13,13 @@ INFO:root:Server is started
 INFO:root:Server is started
 ERROR:root:Port in used
 INFO:root:Listening port 55555
+INFO:root:Server is started
+ERROR:root:Port 5555 in used
+INFO:root:Listening port 55565
+INFO:root:Client connected
+INFO:root:Server is started
+INFO:root:Listening port 1111
+INFO:root:Client connected
+INFO:root:Server is started
+INFO:root:Listening port 1111
+INFO:root:Client connected
