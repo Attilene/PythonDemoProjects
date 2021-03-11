@@ -4,8 +4,11 @@ import logging
 logging.basicConfig(filename="echo.log", level=logging.INFO)
 
 
-def check_name():
-    pass
+def check_name(addr):
+    with open("client_name.txt", "r") as f:
+        for line in f:
+            if f"{addr[0]}:{addr[1]}" in line:
+                return 1
 
 
 def write_name():

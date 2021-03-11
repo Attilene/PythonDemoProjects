@@ -1,0 +1,61 @@
+INFO:root:Server is started
+INFO:root:Server is started
+ERROR:root:Port 5555 in used
+ERROR:root:Port 5555 in used
+INFO:root:Server is started
+INFO:root:Listening port 22222
+INFO:root:Server is started
+INFO:root:Listening port 4234
+INFO:root:Client connected
+INFO:root:Receive message from the client: fgfh
+INFO:root:Send message to the client: fgfh
+INFO:root:Receive message from the client: adfsdgfh
+INFO:root:Send message to the client: adfsdgfh
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Receive message from the client: erweg
+INFO:root:Send message to the client: erweg
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Receive message from the client: resfdgb
+INFO:root:Send message to the client: resfdgb
+INFO:root:Client connected
+INFO:root:Receive message from the client: tytuiu
+INFO:root:Send message to the client: tytuiu
+INFO:root:Receive message from the client: dafsgfh
+INFO:root:Send message to the client: dafsgfh
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Receive message from the client: dasfsgh
+INFO:root:Send message to the client: dasfsgh
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Receive message from the client: dasfhjk
+INFO:root:Send message to the client: dasfhjk
+INFO:root:Client connected
+INFO:root:Receive message from the client: sfdghj
+INFO:root:Send message to the client: sfdghj
+INFO:root:Receive message from the client: aersgfh
+INFO:root:Send message to the client: aersgfh
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Client connected
+INFO:root:Server is started
+INFO:root:Listening port 4444
+INFO:root:Client connected
+INFO:root:Receive message from the client: erwfgbn
+INFO:root:Send message to the client: erwfgbn
+INFO:root:Client connected
+INFO:root:Receive message from the client: ewrgfh
+INFO:root:Send message to the client: ewrgfh
