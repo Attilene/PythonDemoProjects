@@ -66,12 +66,16 @@ def write_to_result_matrix(path_length: str, path_res: str):
 def start():
     A = read("first_matrix.txt")
     B = read("second_matrix.txt")
+    POOL_THREADS = 4
     if check_matrix(A, B):
         l1, l2 = write_length("length.txt", A, B)
+        pool = Pool(POOL_THREADS)
+        proc_list = []
         for i in range(l1):
             for j in range(l2):
-                process_calc = Process(target=calc_element, args=[(i, j), A, B, str(i) + '_' + str(j)])
-                process_calc.start()
+                proc_list.append(
+                    pool.apply_async(
+                        calc_element, ((i, j), A, B, str(i) + '_' + str(j))))
         write_to_result_matrix("length.txt", "result_matrix.txt")
     else:
         print("Некорректный формат начальных матриц!")
