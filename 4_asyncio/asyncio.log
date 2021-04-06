@@ -1,0 +1,127 @@
+INFO:root:Hello, world
+INFO:root:sfdfvsddf
+INFO:root:wefvdccv
+INFO:root:ewdsfdg
+INFO:root:qewdf
+INFO:root:sdf
+INFO:root:sdf
+INFO:root:sdfsdf
+INFO:root:edfg
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_echo() done, defined at D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py:7> exception=ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 457, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py", line 8, in handle_echo
+    data = await reader.read(1000)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 812, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 461, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+INFO:root:wefrdsf
+INFO:root:sdfsdf
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<handle_echo() done, defined at D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py:7> exception=ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 457, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py", line 8, in handle_echo
+    data = await reader.read(1000)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 812, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 461, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<handle_echo() done, defined at D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py:7> exception=ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 457, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py", line 8, in handle_echo
+    data = await reader.read(1000)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 812, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 461, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+INFO:root:342334wetyhjtrsa
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<handle_echo() done, defined at D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py:7> exception=ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 457, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py", line 8, in handle_echo
+    data = await reader.read(1000)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 812, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 461, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<handle_echo() done, defined at D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py:7> exception=ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 457, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] Указанное сетевое имя более недоступно
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FinUniver\Питон\ITs_a_code\PyCharm_Code\Linux\4_asyncio\Server.py", line 8, in handle_echo
+    data = await reader.read(1000)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 812, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 461, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] Указанное сетевое имя более недоступно

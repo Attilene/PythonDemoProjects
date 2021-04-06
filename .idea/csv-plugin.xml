@@ -38,6 +38,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\4_asyncio\Client.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\4_asyncio\Server.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
