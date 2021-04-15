@@ -125,6 +125,13 @@ def renameFile(name, new_name, flags=None) -> str:
     return 'File renamed'
 
 
+def uploadFile(name, text, flags=None) -> str:
+    with open(name, "w") as file:
+        file.write(text)
+        file.close()
+    return 'File uploaded'
+
+
 def pwd(flags=None) -> str:
     return Config.DIR.split('/')[-1] + os.getcwd().split(f"{Config.DIR.split('/')[-1]}")[-1]
 
@@ -134,12 +141,12 @@ def checkDir(*paths, check=True) -> str:
     error = ''
     if check:
         if not os.path.exists(path):
-            error += "Directory is not exist!"
+            error += "Directory is not exist!\n"
         if not os.path.isdir(path):
-            error += "Path is not exist!"
+            error += "Path is not exist!\n"
     if DIR != path[:len(DIR)]:
-        error += "Going outside the file system border!"
-    return path, error
+        error += "Going outside the file system border!\n"
+    return path, error[:-1]
 
 
 def checkFile(*paths, check=True) -> str:
@@ -147,9 +154,9 @@ def checkFile(*paths, check=True) -> str:
     error = ''
     if check:
         if not os.path.exists(path):
-            error += "File is not exist!"
+            error += "File is not exist!\n"
         if not os.path.isfile(path):
-            error += "Path is not exist!"
+            error += "Path is not exist!\n"
     if DIR != path[:len(DIR)]:
-        error += "Going outside the file system border!"
-    return path, error
+        error += "Going outside the file system border!\n"
+    return path, error[:-1]

@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\5_FTP-server\Client.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\5_FTP-server\Server.py">
           <value>
             <Attribute>

@@ -14,5 +14,7 @@ class Config:
         'copy': 'copyFile',
         'move': 'moveFile',
         'rename': 'renameFile',
-        'pwd': 'pwd'
+        'pwd': 'pwd',
+        'dnl': 'readFile',
+        'upl': 'uploadFile'
     }
