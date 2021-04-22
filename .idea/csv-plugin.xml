@@ -73,6 +73,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\6_Web-server\1.html">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\6_Web-server\web-server.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
