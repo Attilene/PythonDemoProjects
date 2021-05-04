@@ -87,6 +87,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\7_Symmetric_ciphers\Symmetric_ciphers.md">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\7_Symmetric_ciphers\crypt.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
