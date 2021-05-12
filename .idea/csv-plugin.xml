@@ -101,6 +101,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\9_Flask\servise\dbms.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
